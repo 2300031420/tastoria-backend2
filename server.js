@@ -27,7 +27,7 @@ const server = http.createServer(app);
 
 
 // ✅ Frontend URL for CORS
-const frontendURL = ["http://localhost:3000", "https://www.tastoria.in"];
+const frontendURL = ["http://localhost:3000", "https://www.tastoria.in" , "https://tastoria-front-liard.vercel.app"];
 
 
 const io = new Server(server, {
